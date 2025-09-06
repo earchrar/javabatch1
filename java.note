@@ -1,0 +1,248 @@
+=> Java Public Name = ( first Upper Case ) Main / Important
+
+    => Class (Object) 
+
+    => public → JVM ( Java Virtual Machine) က ခေါ်သုံးနိုင်ဖို့
+    => static → Object မဖန်တီးဘဲ ခေါ်သုံးနိုင်ဖို့
+    => void → တန်ဖိုးပြန်ပေးစရာမလိုတဲ့အတွက်
+    => String[] args → Command-line arguments တွေထည့်နိုင်ဖို့
+
+    => Java Public Class 
+
+    public class Important{
+
+        public static void main(String[] args){
+            code to be executed;
+        }
+
+    }
+
+=> CMD ( Command ) Java 
+    Eg. javac Main.java | java main
+
+=> import 
+    (1).import java.util.Scanner;
+
+=> Printout() 
+    System.out.print();// left to right
+    System.out.println();// up to down
+    System.out.println();// up to down
+    System.out.println(Object (+));// up to down
+    System.out.printf(,); // float
+
+=> Data Types           => Date Typese Object
+    String = %s             nextLine();
+    int  = %d               nextLineInt();
+    float = .3f             nextFloat();
+    char = %c               next.charAt(0);
+
+=> Case 
+    toUpperCase() => means Upper Case 
+    toLowerCase() => means Lower Case
+
+Lesson 1 
+    => exe 1 (Single Static Number) 
+
+        String name = "Java Programming";
+        int age = 33;
+        float a = 1.24f;
+        char b = 'e';
+
+        Single Printout 
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(a);
+        System.out.println(b);
+
+        Multi Printout 
+        System.out.printf("Subject name is %s. Age is %d. Float Number is %.2f. Charcter is %c.");
+
+    => exe 2 (Single Dynamies Number)
+
+        Types of => String
+        Object = Variable (String = nextLine() )
+
+        Scanner sca = new Scanner(System.in);
+        System.out.println("Enter your name =  ");
+        String name = sca.nextLine();
+        System.out.println("My name is =  "+name);
+
+        Types of => int
+        Object = Variable (int = nextLineInt() )
+
+        Scanner sca = new Scanner(System.in);
+        System.out.println("Enter your age =  ");
+        int age = sca.nextLineInt();
+        System.out.println("Age is =  "+age);
+
+        Types of => float
+        Object = Variable (float = nextFloat() )
+
+        Scanner sca = new Scanner(System.in);
+        System.out.println("Enter First Number is =  ");
+        float fnumber = sca.nextFloat();
+        System.out.println("Enter Second Number is =  ");
+        float snumber = sca.nextFloat();
+        float result = fnumber + snumber;
+        System.out.println("Result Number is = "+result);
+
+        Types of => char 
+        Object = Variable (char = .next().charAt(0))
+
+        Scanner sca = new Scanner(System.in);
+        System.out.println("Enter you character = ");
+        char a = sca.next().charAt(0);
+        System.out.println("Result Character : "+a);
+
+Lesson 2 
+ Arithemetic Operators ( Addition(+) , Subtraction(-) , Multiple(*) , Modulue(%) , increment (++) , decrement (--))
+
+ exe 1 
+    Addition (+)
+    int a = 50;
+    int b = 10;
+    int result = a + b;
+    System.out.print("Result Number is = ",result);
+
+    Subtraction (-)
+    int a = 50;
+    int b = 10;
+    int result = a - b;
+    System.out.print("Result Number is = ",result);
+
+    Multiple (*)
+    int a = 50;
+    int b = 10;
+    int result = a * b;
+    System.out.print("Result Number is = ",result);
+
+    Modulue (%)
+    int a = 50;
+    int b = 10;
+    int result = a % b;
+    System.out.print("Result Number is = ",result);
+
+    Increment (++) 
+    int a = 50;
+    int b = 10;
+    int result = a % b;
+    ++result;
+    System.out.print("Result Number is = ",result);
+
+    Decrement (--) 
+    int a = 50;
+    int b = 10;
+    int result = a % b;
+    --result;
+    System.out.print("Result Number is = ",result);
+
+Lesson 3 
+ Assignment Operators ( = , += , -= , *= , %= )
+
+    (+=)
+    int a = 10;
+    a += 5;
+    System.out.print("Number is = ",a);
+
+    (-=)
+    int b = 10;
+    b += 5;
+    System.out.print("Number is = ",b);
+
+    (*=)
+    int c = 10;
+    c *= 5;
+    System.out.print("Number is = ",c);
+
+    (%=)
+    int d = 10;
+    d *= 5;
+    System.out.print("Number is = ",d);
+
+Lesson 4 
+ Compresion Operators ( == , != , < , <= , > , >=)
+    
+    (==) 
+    int a = 10;
+    int b = 20;
+    System.out.println("== is ",a==b);
+
+    (!=) 
+    int a = 10;
+    int b = 20;
+    System.out.println("!= is ",a!=b);
+
+    (<) 
+    int a = 10;
+    int b = 20;
+    System.out.println("< Greater is ",a<b);
+
+    (<=) 
+    int a = 10;
+    int b = 20;
+    System.out.println("< Greater than is ",a<=b);
+
+    (>) 
+    int a = 10;
+    int b = 20;
+    System.out.println("> Less is ",a>b);
+
+    (>=) 
+    int a = 10;
+    int b = 20;
+    System.out.println(">= Less than is ",a>=b);
+
+Lesson 5 
+ Logical Operators ( and && or || not ! )
+
+    int a = 10;
+    int b = 20;
+    int c = 30;
+
+    System.out.println((a<b)&&(a>c));
+    System.out.println((a<b)||(a>c));
+    System.out.println(!(a<b));
+
+Lesson 6 
+ Control flow 
+
+    exe 1 
+        int a = 10;
+
+        if(a < 10){
+            System.out.println("Less than 10);
+        }else if(a > 10){
+            System.out.println("Greater than 10);
+        }else{
+            System.out.println("Equal to 10);
+        }
+
+EXERCISE File ( Hours , Minutes , Seconds ) 
+
+    Scanner sca = new Scanner(System.in);
+    System.out.print("Enter Times");
+    int hours = sca.nextFloat();
+    System.out.print("Enter Your Hours");
+    int minutes = sca.nextFloat();
+    System.out.print("Enter Your Minutes");
+    int seconds = sca.nextFloat();
+    System.out.print("Enter Your Seconds");
+
+    int result = (hour * 60 * 60) + (minutes * 60) + (seconds);
+    System.out.print("Result is = %d",result);
+
+EXERCISE File ( Greater than )
+
+    Scanner sca = new Scanner(System.in);
+    int a = sca.nextLineInt();
+    System.out.print("Enter First Your Number = ");
+    int b = sca.nextLineInt();
+    System.out.print("Enter Second Your Number = ");
+    int c = sca.nextLineInt();
+    System.out.print("Enter Thrid Your Number = ");
+
+    if( a > b && a > c){
+        System.out.print("First Number is greater than");
+    }else if(b > a && b > c){
+        System.out.print("First Number is greater than");
+    }
