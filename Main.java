@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
-import javax.swing.plaf.synth.SynthMenuBarUI;
 
 public class Main{
 
