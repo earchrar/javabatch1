@@ -250,63 +250,63 @@ public class Main{
         // }
         // System.out.println("Sun of all digit is = "+reverse);// 4321
 
-        Scanner sca = new Scanner(System.in);
+        // Scanner sca = new Scanner(System.in);
 
-        int option;
-        String rname = "";
-        String remail = "";
-        String rpassword = "";
-        String lemail = "";
-        String lpassword = "";
+        // int option;
+        // String rname = "";
+        // String remail = "";
+        // String rpassword = "";
+        // String lemail = "";
+        // String lpassword = "";
 
-        do{
+        // do{
 
-            System.out.println("1. Register");
-            System.out.println("2. Login");
-            System.out.println("0. Program Exit");
-            System.out.print("Enter your option = ");
+        //     System.out.println("1. Register");
+        //     System.out.println("2. Login");
+        //     System.out.println("0. Program Exit");
+        //     System.out.print("Enter your option = ");
 
-            option = sca.nextInt();
-            sca.nextLine();
+        //     option = sca.nextInt();
+        //     sca.nextLine();
 
-            if(option == 1){
+        //     if(option == 1){
 
-                System.out.println("*** Register ***");
-                System.out.print("Enter your name = ");
-                rname = sca.nextLine();
-                System.out.print("Enter you email = ");
-                remail = sca.nextLine();
-                System.out.print("Enter your password = ");
-                rpassword = sca.nextLine();
-                System.out.println("Register Succeed.");
+        //         System.out.println("*** Register ***");
+        //         System.out.print("Enter your name = ");
+        //         rname = sca.nextLine();
+        //         System.out.print("Enter you email = ");
+        //         remail = sca.nextLine();
+        //         System.out.print("Enter your password = ");
+        //         rpassword = sca.nextLine();
+        //         System.out.println("Register Succeed.");
 
-            }else if(option == 2){
+        //     }else if(option == 2){
 
-                System.out.print("Login");
+        //         System.out.print("Login ");
 
-                do{
-                    System.out.print("Enter your email = ");
-                    lemail = sca.nextLine();
-                    System.out.print("Enter your password = ");
-                    lpassword = sca.nextLine();
+        //         do{
+        //             System.out.print("Enter your email = ");
+        //             lemail = sca.nextLine();
+        //             System.out.print("Enter your password = ");
+        //             lpassword = sca.nextLine();
 
-                    if(lemail.equals(remail) && lpassword.equals(rpassword)){
-                        System.out.println("Login Success");
-                        System.out.println("Welcome "+ rname);
-                        break;
-                    }else{
-                        System.out.println("Your information wrong.");
-                    }
+        //             if(lemail.equals(remail) && lpassword.equals(rpassword)){
+        //                 System.out.println("Login Success");
+        //                 System.out.println("Welcome "+ rname);
+        //                 break;
+        //             }else{
+        //                 System.out.println("Your information wrong.");
+        //             }
 
-                }while(true);
+        //         }while(true);
                 
 
 
-            }else if(option == 0){
-                System.out.print("Program Exit");
-            }
+        //     }else if(option == 0){
+        //         System.out.print("Program Exit");
+        //     }
 
-        }while(option != 0);
+        // }while(option != 0);
 
     
     }

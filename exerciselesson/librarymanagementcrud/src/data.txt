@@ -1,0 +1,34 @@
+| No | English Title                     | Author                 | Category              |
+| -- | --------------------------------- | ---------------------- | --------------------- |
+| 1  | *Thingyan (Life’s Cycle)*         | Thein Pe Myint         | Novel                 |
+| 2  | *Maha Maykha La*                  | Thein Pe Myint         | Novel                 |
+| 3  | *My Beloved*                      | Journal Kyaw Ma Ma Lay | Romance Novel         |
+| 4  | *My Own Belonging*                | Journal Kyaw Ma Ma Lay | Novel                 |
+| 5  | *Diary of the Youth*              | Min Lu                 | Social Novel          |
+| 6  | *Pathein-Style Humor*             | Min Lu                 | Humor                 |
+| 7  | *Humorous Writings of Shwe U Nyo* | Shwe U Nyo             | Humor                 |
+| 8  | *A Love No One Knows*             | Min Lu                 | Social Literature     |
+| 9  | *Poems of Tekkatho Phone Naing*   | Tekkatho Phone Naing   | Poetry                |
+| 10 | *Poems of Min Thu Wunna*          | Min Thu Wunna          | Poetry                |
+| 11 | *Poems of Zaw Gyi*                | Zaw Gyi                | Poetry                |
+| 12 | *A Brief History of Myanmar*      | Dr. Than Tun           | History               |
+| 13 | *King Anawrahta*                  | U Ba Than              | History               |
+| 14 | *Myanmar Culture*                 | Thakin Ko Daw          | Culture               |
+| 15 | *Successful Youth*                | Sayar Zaw Win          | Self-Development      |
+| 16 | *Guide to a Successful Life*      | Sayar Myat Thu         | Self-Help             |
+| 17 | *Basic Economics*                 | U Maung Maung Gyi      | Business              |
+| 18 | *Meaning of the Mangala Sutta*    | Ashin Janaka           | Religion              |
+| 19 | *Meaning of the Dhammapada*       | Ashin Janaka           | Religion              |
+| 20 | *Introduction to Abhidhamma*      | Mahasi Sayadaw         | Religion              |
+| 21 | *World of Fairy Tales*            | May Myint Mo           | Children’s Literature |
+| 22 | *Stories for Children*            | Khin Khin Htoo         | Children’s Literature |
+| 23 | *Too Much to Love to Hate*        | Lin Let Kyar Sin       | Romance               |
+| 24 | *The Rainy Day*                   | Moe Moe (Inya)         | Romance               |
+| 25 | *Love and Life*                   | Khin Khin Htoo         | Romance               |
+| 26 | *The Shadow of Life*              | Thukhamein Hlaing      | Social Novel          |
+| 27 | *Humans and Society*              | Sayar Thein Hlaing     | Social Studies        |
+| 28 | *Selected Myanmar Literature*     | Literature Committee   | Literature            |
+| 29 | *Modern Myanmar Short Stories*    | Various Authors        | Short Stories         |
+| 30 | *Biography of General Aung San*   | Various Authors        | Biography             |
+
+----------------------------------------------------------------------------------------------------------------

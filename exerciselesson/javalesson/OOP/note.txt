@@ -1,0 +1,4 @@
+OOP Note => Object Oriented Programming 
+    Note => public , static , this 
+    public ဆိုရင် object ပြောင်းပြီးမှာ အလုပ်လုပ်တယ်။
+    static ဆိုရင် ပြောင်းစရာမလို. အလုပ်လုပ်တယ်။ ဒါပင်မယ် local file မှာဘဲ. အလုပ်လုပ်တယ်။
