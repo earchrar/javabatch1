@@ -98,7 +98,7 @@ public class LibraryGUI extends JFrame {
     private void loadBooks() {
         model.setRowCount(0);
 
-        String sql = "SELECT id, title, author, category, isBorrowed, borrowerName FROM books ORDER BY id DESC";
+        String sql = "SELECT id, title, author, category, isBorrowed, borrowerName FROM books ORDER BY id ASC";
 
         try(
             Connection con = DBConnection.getConnection();

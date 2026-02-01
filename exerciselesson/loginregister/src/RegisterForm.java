@@ -75,3 +75,6 @@ public class RegisterForm extends JFrame{
 
     }
 }
+
+// ခုံနံပါတ် = 25B2100103-46682 
+// password = 20010108
